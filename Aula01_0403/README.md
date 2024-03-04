@@ -14,7 +14,8 @@ Array é uma estrutura que permite armanezar uma coleção de elementos do mesmo
 - Existem arrays **unidimensionais** (vetores) e **multidimensionais** (matrizes). </br>
 
 Deve-se tomar cuidado com o espaço de armazenamento, já que o tamanho deve ser informado. </br>
-Quando **pré-dinimos a quantidade máxima de registros**, criamos uma **array estática**. Quando **existe um método para aumentar a capacidade** dinamicamente, **array dinâmica**. </br>
+Quando **pré-dinimos a quantidade máxima de registros**, criamos uma **array estática**. </br> 
+Quando **existe um método para aumentar a capacidade** dinamicamente, **array dinâmica**. </br>
 Exemplo de utilização: lista de notas dos alunos da turma x, lista dos feriados brasileiros...
 
 ### Lista
@@ -27,13 +28,13 @@ Alguns comandos são: size(), isEmpty(), contains(Object elemento), add(), remov
 Exemplo de utilização: lista de compras, lista de gastos em um app financeiro </br>
 
 OBS: a maneira correta de criar uma arraylist é: </br>
--> List<<String>> nomes = new ArrayList<>(); </br>
+> List<<String>> nomes = new ArrayList<>(); </br>
 > Com isso, pode-se trocar a implementação subjacente para outras classes que também implementam List, sem alterar o restante do código, tornando o código mais flexível e fácil de manter.
 
 ### Fila
 Também conhecido como **Queue**, segue o princípio FIFO (First-In-First-Out). O 1º elemento inserido será o 1º a ser removido. </br>
 Queue em Java é uma **coleção** que não permite duplicatas e possui métodos específicos de FIFA, como: 
-- add(E elemento), remove(), peek(), etc.. </br>
+> add(E elemento), remove(), peek(), etc.. </br>
 
 Exemplo de utilização: controle de documentos para impressão
 
