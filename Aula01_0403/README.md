@@ -28,7 +28,7 @@ Alguns comandos são: size(), isEmpty(), contains(Object elemento), add(), remov
 Exemplo de utilização: lista de compras, lista de gastos em um app financeiro </br>
 
 OBS: a maneira correta de criar uma arraylist é: </br>
-> List<<String>> nomes = new ArrayList<>(); </br>
+> List<<String>String> nomes = new ArrayList<>(); </br>
 > Com isso, pode-se trocar a implementação subjacente para outras classes que também implementam List, sem alterar o restante do código, tornando o código mais flexível e fácil de manter.
 
 ### Fila
