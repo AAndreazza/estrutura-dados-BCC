@@ -8,7 +8,7 @@ Vector é sincronizado, ou seja, os dados são armanzenados na ordem que foram c
 O Vector pode ser usado quando não se tem previsão sobre o crescimento da lista, como em uma lista de compras, que pode adicionar ou remover elementos conforme necessidade. 
 
 ## ArrayList
-O ArrayList possui as mesmas características e até mesmo alguns métodos iguais do Vector, mas é mais perfomática do que ele. <br/><br/><br/><br/>
+O ArrayList possui as mesmas características e até mesmo alguns métodos iguais do Vector, mas é mais perfomática do que ele. <br/><br/>
 A alocação do ArrayList é diferente do Vector, aumentando em 50% do tamanho quando a lista está cheia. <br/><br/>
 Se o array não for grande o suficiente, um novo array maior será criado para substituir o antigo e o antigo será removido. <br/><br/>
 Não é sincronizado... <br/><br/>
@@ -28,5 +28,5 @@ Para grandes estrutura de dados, é mais perfomático que LinkedList ou ArrayLis
 Além disso, faz o redimensionamento de dados automaticamente. Quando executado, o HashMap retorna um valor de performance entre 0 e 1, e se o registro retornar qualquer valor acima de 0.75, o HashMap realizará melhorias na estrutura para garantir mais velocidade. <br/><br/>
 Pode ser usado para para armezenar os livros de uma biblioteca, sendo chave, o código do livro, e valor o nome do mesmo.
 
-#### Site complementar sobre performace
+### Site complementar sobre performace
 <https://www.devmedia.com.br/diferenca-entre-arraylist-vector-e-linkedlist-em-java/29162>
