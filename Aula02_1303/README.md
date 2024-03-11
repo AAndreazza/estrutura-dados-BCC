@@ -28,5 +28,5 @@ Para grandes estrutura de dados, é mais perfomático que LinkedList ou ArrayLis
 Além disso, faz o redimensionamento de dados automaticamente. Quando executado, o HashMap retorna um valor de performance entre 0 e 1, e se o registro retornar qualquer valor acima de 0.75, o HashMap realizará melhorias na estrutura para garantir mais velocidade. <br/><br/>
 Pode ser usado para para armezenar os livros de uma biblioteca, sendo chave, o código do livro, e valor o nome do mesmo.
 
-### Site complementar sobre performace
+### Site complementar sobre performance
 <https://www.devmedia.com.br/diferenca-entre-arraylist-vector-e-linkedlist-em-java/29162>
