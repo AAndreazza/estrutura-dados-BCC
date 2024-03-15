@@ -10,7 +10,7 @@ A Fila fornece métodos diretos e eficazes que possibilitam a adição, remoçã
 
 O último método apresentado acima ( 'peek()' ) retorna o 1º elemento da lista, sem removê-lo e sem precisar percorrer toda a lista de tarefas, o que mantém a eficiência do sistema. </br>
 
-Um dos requisitos do sistema é a escabilidade, e a fila resolve o mesmo, já que é escalável conforme a adição de mais elementos nela. </br>
+Além disso, conforme mais tarefas são adicionadas na fila, ela continua funcionando de maneira eficiente, garantindo que o sistema consiga lidar com um grande número de tarefas.</br>
 
 Usar Fila como estrutura de dados no sistema proposto atende os requisitos do sistema de gerenciamento de tarefas e cumpre com todas as operações necessárias de uma maneira organizada e eficiente, por isso ela foi a minha escolha de uso. 
 
